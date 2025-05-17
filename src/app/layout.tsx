@@ -13,10 +13,28 @@ export const metadata: Metadata = {
   description: "생년월일을 입력하면 정확한 만 나이를 계산해드립니다. 간단하고 빠른 만 나이 계산기입니다.",
   keywords: ["만 나이", "나이 계산기", "생년월일", "나이 계산", "만 나이 계산기"],
   authors: [{ name: "만 나이 계산기" }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     title: "만 나이 계산기 | 정확한 만 나이 계산",
     description: "생년월일을 입력하면 정확한 만 나이를 계산해드립니다. 간단하고 빠른 만 나이 계산기입니다.",
     type: "website",
+    images: [
+      {
+        url: '/og.svg',
+        width: 1200,
+        height: 630,
+        alt: '만 나이 계산기',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '만 나이 계산기 | 정확한 만 나이 계산',
+    description: '생년월일을 입력하면 정확한 만 나이를 계산해드립니다. 간단하고 빠른 만 나이 계산기입니다.',
+    images: ['/og.svg'],
   },
 };
 

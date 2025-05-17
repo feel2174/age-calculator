@@ -56,6 +56,7 @@ export default function RootLayout({
         <meta name="naver-site-verification" content="d81ba3b0f2a3d7fd68ec5938c9d9d8a2e8ef9c65" />
       </head>
       <body className={inter.className}>
+        <Analytics />
         {children}
         <footer className="bg-gray-50 py-6 mt-8">
           <div className="container mx-auto px-4 text-center text-gray-600 text-sm">

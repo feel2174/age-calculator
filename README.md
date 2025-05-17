@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 만 나이 계산기
 
-## Getting Started
+간단하고 정확한 만 나이를 계산할 수 있는 웹 애플리케이션입니다.
 
-First, run the development server:
+## 주요 기능
+
+- 생년월일을 입력하여 정확한 만 나이 계산
+- 직관적이고 사용하기 쉬운 인터페이스
+- 반응형 디자인으로 모바일/데스크톱 모두 지원
+- SEO 최적화
+
+## 기술 스택
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React
+
+## 시작하기
 
 ```bash
+# 저장소 클론
+git clone https://github.com/feel2174/age-calculator.git
+
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 배포
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+이 프로젝트는 Vercel을 통해 배포됩니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 관련 프로젝트
 
-## Learn More
+- [BMI 계산기](https://bmi.zucca100.com) - 체질량지수(BMI) 계산기
 
-To learn more about Next.js, take a look at the following resources:
+## 라이선스
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License

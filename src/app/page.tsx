@@ -58,6 +58,10 @@ _taboola.push({
   target_type: 'mix'
 });`}
               </Script>
+              <Script id="taboola-flush" strategy="afterInteractive">
+                {`window._taboola = window._taboola || [];
+_taboola.push({ flush: true });`}
+              </Script>
             </section>
 
             <section className="mx-auto max-w-4xl text-center">

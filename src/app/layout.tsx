@@ -113,10 +113,6 @@ export default function RootLayout({
             <p>© {new Date().getFullYear()} 만 나이 계산기. All rights reserved.</p>
           </div>
         </footer>
-        <Script id="taboola-flush" strategy="afterInteractive">
-          {`window._taboola = window._taboola || [];
-_taboola.push({ flush: true });`}
-        </Script>
       </body>
     </html>
   );
